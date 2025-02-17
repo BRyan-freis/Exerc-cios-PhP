@@ -7,19 +7,24 @@
 </head>
 <body>
     <H2> Valor da mèdia dos calculos <H2>
-        <?php 
+    <?php 
         $media = 0;
-        for ($i = 0; $i < 10; $i++) {
+    for ($i = 0; $i < 10; $i++) {
         $numero = rand(1, 100);
         $array[] = $numero;
+    echo "<br>";
+        print_r ($array);
 
         $media += $numero;
                
-        }
+    }
         $media /= count($array);
-          
-        echo "A media dos números é: " . $media . "\n";
-        ?>
-        
+    echo "<br>";  
+
+    ?>
+    <h4> A media dos números é:</h4>
+    
+    <?php echo $media . "\n"; ?>
+
 </body>
 </html>
