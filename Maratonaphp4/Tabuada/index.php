@@ -11,7 +11,7 @@
     $t = 8;
     for ($contador = 1; $contador <= 10; $contador++) {
         $resultado = $contador * $t;
-        echo "$t = $resultado <br>" . PHP_EOL;
+        echo "$t x $contador = $resultado <br>" . PHP_EOL;
     }
     echo "Fim de programa!" . PHP_EOL;
         
