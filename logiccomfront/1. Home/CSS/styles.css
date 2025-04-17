@@ -1,0 +1,167 @@
+/* Reset e base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background: linear-gradient(120deg, #1f1c2c, #928dab);
+    color: white;
+    line-height: 1.6;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ff5f6d;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    text-align: center;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #ff5f6d;
+}
+
+.hero {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url('https://images.unsplash.com/photo-1610898176123-e1e75b904d9b?auto=format&fit=crop&w=1470&q=80') no-repeat center center/cover;
+    backdrop-filter: blur(2px);
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    text-shadow: 1px 1px 4px #000;
+}
+
+.hero p {
+    font-size: 1.3rem;
+    margin: 20px 0;
+    text-shadow: 1px 1px 3px #000;
+}
+
+.a {
+    padding: 12px 25px;
+    background: #ff5f6d;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background 0.3s;
+}
+
+.botao:hover {
+    background: #e43e53;
+}
+
+.secao {
+    padding: 60px 30px;
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+.secao h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ffd700;
+}
+
+.secao p {
+    font-size: 1.1rem;
+}
+
+.destaque {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    margin-top: 20px;
+    padding: 40px;
+}
+
+.lista-servicos {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+input, textarea {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+textarea {
+    resize: vertical;
+    height: 120px;
+}
+
+button {
+    padding: 12px;
+    background: #ff5f6d;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #e43e53;
+}
+
+/* Rodapé */
+footer, #text {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9rem;
+    margin-top: 40px;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-size: 7px;
+}
