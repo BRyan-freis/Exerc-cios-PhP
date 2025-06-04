@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Cal+Sans&family=Righteous&display=swap');
+
+/* Estilo geral */
+body {
+  font-family: Cal Sans;
+  background: linear-gradient(120deg, #5383a3, #0b3ad4);
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  
+}
+
+/* Container principal */
+.container {
+  padding: 40px 20px;
+  background: linear-gradient(120deg, #5383a3, #0b3ad4);
+}
+
+/* Conteúdo */
+.content {
+  padding: 20px 40px;
+  text-align: justify;
+  justify-content: center;
+  display: center;
+}
+
+/* Título principal */
+.titlle {
+  text-align: center;
+  font-size: 2.8rem;
+  color: #ffffff;
+  padding-bottom: 10px;
+}
+
+/* Subtítulos */
+h2 {
+  font-size: 1.8rem;
+  color: #ffffff;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+/* Parágrafos e texto */
+.content div {
+  text-align: justify;
+  color: #ffffff;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .nav-list {
+    display: none;
+    flex-direction: column;
+    background-color: #333;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 200px;
+    padding: 10px;
+  }
+
+  .nav-list.active {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+}
+
+

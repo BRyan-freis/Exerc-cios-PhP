@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Cal+Sans&family=Righteous&display=swap');
+
+
+/* HEADER */
+header {
+    background-color: rgb(46, 88, 151);
+    font-family: Cal sans;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    margin-top: 10px;
+  
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.logo a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  }
+
+  .logo a:hover {
+  background-color: #0056b3;
+  }
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    text-align: center;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #284ea0;
+}
+
+/* FOOTER */
+.site-footer {
+  background-color: rgb(46, 88, 151);
+  color: #fff;
+  padding: 40px 20px 20px;
+  font-family: Cal Sans;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.footer-logo a {
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-links,
+.footer-social {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.footer-links a,
+.footer-social a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover,
+.footer-social a:hover {
+  color: #00aced;
+}
+
+.footer-links i,
+.footer-social i {
+  margin-right: 8px;
+}
+
+.footer-social {
+  flex-direction: row;
+  gap: 15px;
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #0051ffc1;
+  margin-top: 30px;
+  padding-top: 15px;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+/* Responsivo Footer */
+@media (max-width: 768px) {
+  .footer-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 20px;
+  }
+}
+
+/*  */
